@@ -613,7 +613,7 @@ nav a:hover, nav a.active { color: var(--tan); }
   margin-bottom: 32px;
 }
 .page-hero-logo img {
-  width: clamp(140px, 20vw, 240px);
+  width: clamp(200px, 40vw, 420px);
   height: auto;
   background: transparent;
   padding: 0;
