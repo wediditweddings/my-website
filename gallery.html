@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery — We Did It Weddings</title>
+  <meta name="description" content="Browse wedding film stills from We Did It Weddings — authentic moments captured by the people who love our couples most." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="images/logo-nav.png" alt="We Did It Weddings" />
+    </a>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html" class="nav-cta-link">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=1600&q=80');"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <div class="page-hero-logo">
+        <img src="images/logo-hero.png" alt="We Did It Weddings" />
+      </div>
+      <span class="page-hero-label">Real Weddings</span>
+      <h1>Our Gallery</h1>
+      <p>A collection of real moments captured by real people — the family and friends who love our couples most.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section section">
+    <div class="container">
+
+      <div class="section-header centered fade-up">
+        <span class="section-label">Still Frames</span>
+        <h2 class="section-title">Moments Worth<br><em>Remembering</em></h2>
+        <p class="section-sub" style="margin:16px auto 0;">Every image below was taken from footage filmed by a guest, friend, or family member — not a hired professional.</p>
+      </div>
+
+      <div class="gallery-filter fade-up" style="margin-top:40px;">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ceremony">Ceremony</button>
+        <button class="filter-btn" data-filter="reception">Reception</button>
+        <button class="filter-btn" data-filter="candid">Candid</button>
+        <button class="filter-btn" data-filter="details">Details</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid" style="margin-top:4px;">
+
+        <div class="gallery-item tall fade-up" data-category="ceremony">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80" alt="First kiss at the altar" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="candid">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=700&q=80" alt="Bride and bridesmaids laughing" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="reception">
+          <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=700&q=80" alt="First dance under warm lights" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="details">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=700&q=80" alt="Wedding rings and flowers" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item tall fade-up" data-category="candid">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80" alt="Father daughter emotional moment" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="ceremony">
+          <img src="https://images.unsplash.com/photo-1591604129939-f1efa4d9f7fa?w=700&q=80" alt="Guests at outdoor ceremony" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="reception">
+          <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=700&q=80" alt="Guests dancing at reception" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="details">
+          <img src="https://images.unsplash.com/photo-1549417229-7686ac5595fd?w=700&q=80" alt="Wedding florals and decor" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="candid">
+          <img src="https://images.unsplash.com/photo-1583939411023-14783179e581?w=700&q=80" alt="Friends celebrating together" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="ceremony">
+          <img src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=700&q=80" alt="Couple walking down the aisle" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="reception">
+          <img src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=700&q=80" alt="Toasts at the reception" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+        <div class="gallery-item fade-up" data-category="details">
+          <img src="https://images.unsplash.com/photo-1522413452208-996ff3f3e740?w=700&q=80" alt="Wedding cake detail" loading="lazy" />
+          <div class="gallery-item-overlay"><span>View</span></div>
+        </div>
+
+      </div>
+
+      <p class="text-center" style="margin-top:40px;font:300 0.75rem/1 var(--sans);color:var(--white-35);letter-spacing:0.08em;">
+        Images shown are representative examples. Your footage will reflect your unique day.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-dark">
+    <div class="container-sm">
+      <div class="fade-up">
+        <span class="section-label" style="display:block;text-align:center;margin-bottom:20px;">Start Your Story</span>
+        <h2 class="section-title" style="text-align:center;margin-bottom:16px;">Ready to Create<br><em>Your Own Gallery?</em></h2>
+        <p class="section-sub" style="text-align:center;margin:0 auto 40px;">Every great wedding film starts with a simple conversation. Let's talk about yours.</p>
+        <div class="cta-btns">
+          <a href="contact.html" class="btn btn-tan">Book Your Film</a>
+          <a href="services.html" class="btn btn-outline">See Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo-nav.png" alt="We Did It Weddings" />
+          <p>Authentic wedding films made by the people who love you most. Based in Baton Rouge, Louisiana.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p><a href="tel:+12252661415">225.266.1415</a></p>
+          <p><a href="mailto:wediditweddings@gmail.com">wediditweddings@gmail.com</a></p>
+          <p>Baton Rouge, Louisiana</p>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        <span>&copy; 2024 We Did It Weddings. All rights reserved.</span>
+        <span>Authentic Love. Captured Together.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose">&times;</button>
+    <button class="lb-prev" id="lbPrev">&#8592;</button>
+    <img id="lbImg" src="" alt="" />
+    <button class="lb-next" id="lbNext">&#8594;</button>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

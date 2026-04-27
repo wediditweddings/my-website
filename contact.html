@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — We Did It Weddings</title>
+  <meta name="description" content="Contact We Did It Weddings in Baton Rouge, LA. Call 225.266.1415 or email wediditweddings@gmail.com to book your wedding film." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <a href="index.html" class="logo-link">
+      <img src="images/logo-nav.png" alt="We Did It Weddings" />
+    </a>
+    <button class="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="nav-cta-link active">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero-bg" style="background-image: url('https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=1600&q=80');"></div>
+    <div class="page-hero-overlay"></div>
+    <div class="page-hero-content">
+      <div class="page-hero-logo">
+        <img src="images/logo-hero.png" alt="We Did It Weddings" />
+      </div>
+      <span class="page-hero-label">Let's Talk</span>
+      <h1>Get In Touch</h1>
+      <p>We'd love to hear about your wedding day. Reach out and let's make something beautiful together.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-section section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Info -->
+        <div class="fade-up">
+          <hr class="rule" style="margin-bottom:28px;" />
+          <h2>We're Here<br><em>for You</em></h2>
+          <p style="margin-top:16px;">Whether you have questions, want to check availability, or are ready to book — we're just a call or message away. We typically respond within 24 hours.</p>
+
+          <div class="contact-cards" style="margin-top:36px;">
+            <div class="contact-card">
+              <div class="cc-icon">📞</div>
+              <div class="cc-text">
+                <label>Phone</label>
+                <a href="tel:+12252661415">225.266.1415</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="cc-icon">✉️</div>
+              <div class="cc-text">
+                <label>Email</label>
+                <a href="mailto:wediditweddings@gmail.com">wediditweddings@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="cc-icon">📍</div>
+              <div class="cc-text">
+                <label>Location</label>
+                <span>Baton Rouge, Louisiana</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="cc-icon">🕐</div>
+              <div class="cc-text">
+                <label>Response Time</label>
+                <span>Within 24 hours</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:36px;padding:24px 28px;border:1px solid var(--border);border-left:2px solid var(--tan);">
+            <p style="font:400 0.85rem/1 var(--serif);color:var(--tan);margin-bottom:12px;">Booking Tips</p>
+            <ul class="check-list">
+              <li>Share your wedding date to confirm availability</li>
+              <li>Include your shipping address for camera delivery</li>
+              <li>Ask us anything — no question is too small</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Form -->
+        <div class="contact-form-wrap fade-up">
+          <h2>Send a Message</h2>
+          <p>Fill out the form and we'll be in touch within 24 hours.</p>
+
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" placeholder="(225) 000-0000" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="weddingDate">Wedding Date *</label>
+                <input type="date" id="weddingDate" name="weddingDate" required />
+              </div>
+              <div class="form-group">
+                <label for="weddingCity">City / Venue</label>
+                <input type="text" id="weddingCity" name="weddingCity" placeholder="e.g. Baton Rouge, LA" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="guestCount">Approximate Guest Count</label>
+              <select id="guestCount" name="guestCount">
+                <option value="" disabled selected>Select a range</option>
+                <option value="under-50">Under 50 guests</option>
+                <option value="50-100">50 – 100 guests</option>
+                <option value="100-200">100 – 200 guests</option>
+                <option value="200+">200+ guests</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Tell us about your wedding and any questions you have..." required></textarea>
+            </div>
+            <button type="submit" class="form-submit">Send Message</button>
+            <p class="form-note">Your information is never shared with third parties.</p>
+          </form>
+
+          <div class="form-success">
+            <div class="si">🎉</div>
+            <h3>Message Sent</h3>
+            <p>Thank you for reaching out. We'll be in touch within 24 hours.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq section-sm">
+    <div class="container">
+      <div class="section-header centered fade-up">
+        <span class="section-label">Good to Know</span>
+        <h2 class="section-title">Frequently Asked</h2>
+        <hr class="rule rule-center" style="margin:20px auto 0;" />
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item fade-up">
+          <h3>How far in advance should I book?</h3>
+          <p>We recommend booking at least 4–6 weeks before your wedding date to ensure availability and camera shipping time.</p>
+        </div>
+        <div class="faq-item fade-up">
+          <h3>Do you ship nationwide?</h3>
+          <p>Yes. While we're based in Baton Rouge, we ship cameras to couples anywhere in the continental United States.</p>
+        </div>
+        <div class="faq-item fade-up">
+          <h3>Do guests need filming experience?</h3>
+          <p>Not at all. Our cameras are user-friendly and come with simple instructions. If you can press a button, you can create beautiful footage.</p>
+        </div>
+        <div class="faq-item fade-up">
+          <h3>How is the film delivered?</h3>
+          <p>Your finished 5–7 minute highlight is delivered digitally via download link — easy to save, share, and keep forever.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo-nav.png" alt="We Did It Weddings" />
+          <p>Authentic wedding films made by the people who love you most. Based in Baton Rouge, Louisiana.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <p><a href="tel:+12252661415">225.266.1415</a></p>
+          <p><a href="mailto:wediditweddings@gmail.com">wediditweddings@gmail.com</a></p>
+          <p>Baton Rouge, Louisiana</p>
+        </div>
+      </div>
+      <hr class="footer-divider" />
+      <div class="footer-bottom">
+        <span>&copy; 2024 We Did It Weddings. All rights reserved.</span>
+        <span>Authentic Love. Captured Together.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
