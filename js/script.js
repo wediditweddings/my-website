@@ -46,9 +46,20 @@ const form = document.getElementById('contactForm');
 if (form) {
   form.addEventListener('submit', e => {
     e.preventDefault();
-    form.style.display = 'none';
-    const s = document.querySelector('.form-success');
-    if (s) s.style.display = 'block';
+    const data = new URLSearchParams(new FormData(form)).toString();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: data
+    })
+    .then(() => {
+      form.style.display = 'none';
+      const s = document.querySelector('.form-success');
+      if (s) s.style.display = 'block';
+    })
+    .catch(() => {
+      alert('Something went wrong. Please call us at 225.266.1415 or email wediditweddings@gmail.com directly.');
+    });
   });
 }
 
