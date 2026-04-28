@@ -46,16 +46,19 @@ const form = document.getElementById('contactForm');
 if (form) {
   form.addEventListener('submit', e => {
     e.preventDefault();
-    const data = new URLSearchParams(new FormData(form)).toString();
-    fetch('/', {
+    fetch('https://formspree.io/f/mlgayypp', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: data
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(form)
     })
-    .then(() => {
-      form.style.display = 'none';
-      const s = document.querySelector('.form-success');
-      if (s) s.style.display = 'block';
+    .then(res => {
+      if (res.ok) {
+        form.style.display = 'none';
+        const s = document.querySelector('.form-success');
+        if (s) s.style.display = 'block';
+      } else {
+        alert('Something went wrong. Please call us at 225.266.1415 or email wediditweddings@gmail.com directly.');
+      }
     })
     .catch(() => {
       alert('Something went wrong. Please call us at 225.266.1415 or email wediditweddings@gmail.com directly.');
