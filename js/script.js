@@ -126,3 +126,4 @@ if (lightbox && lbImg) {
     if (e.key === 'ArrowRight') document.getElementById('lbNext').click();
   });
 }
+
