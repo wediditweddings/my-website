@@ -102,12 +102,12 @@
           <form id="contactForm" novalidate>
             <div class="form-row">
               <div class="form-group">
-                <label for="firstName">First Name *</label>
-                <input type="text" id="firstName" name="firstName" placeholder="Your first name" required />
+                <label for="brideName">Bride Name *</label>
+                <input type="text" id="brideName" name="brideName" placeholder="Bride's full name" required />
               </div>
               <div class="form-group">
-                <label for="lastName">Last Name *</label>
-                <input type="text" id="lastName" name="lastName" placeholder="Your last name" required />
+                <label for="groomName">Groom Name *</label>
+                <input type="text" id="groomName" name="groomName" placeholder="Groom's full name" required />
               </div>
             </div>
             <div class="form-row">
@@ -131,18 +131,12 @@
               </div>
             </div>
             <div class="form-group">
-              <label for="guestCount">Approximate Guest Count</label>
-              <select id="guestCount" name="guestCount">
-                <option value="" disabled selected>Select a range</option>
-                <option value="under-50">Under 50 guests</option>
-                <option value="50-100">50 – 100 guests</option>
-                <option value="100-200">100 – 200 guests</option>
-                <option value="200+">200+ guests</option>
-              </select>
+              <label for="hearAboutUs">How Did You Hear About Us?</label>
+              <input type="text" id="hearAboutUs" name="hearAboutUs" placeholder="e.g. Instagram, a friend, Google…" />
             </div>
             <div class="form-group">
-              <label for="message">Message *</label>
-              <textarea id="message" name="message" placeholder="Tell us about your wedding and any questions you have..." required></textarea>
+              <label for="message">Tell Us About Yourselves *</label>
+              <textarea id="message" name="message" placeholder="We'd like to get to know you two. Tell us about yourselves. How'd you meet and what's your story? How'd you hear about us? What's your vision for your wedding film? Or anything else you'd like to share?" required></textarea>
             </div>
             <button type="submit" class="form-submit">Send Message</button>
             <p class="form-note">Your information is never shared with third parties.</p>
