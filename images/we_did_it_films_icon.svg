@@ -1,20 +1,22 @@
 <svg width="1080" height="1080" viewBox="0 0 680 680" xmlns="http://www.w3.org/2000/svg">
-  <title>We Did It Films — Icon Mark Transparent</title>
+  <title>We Did It Films — Icon Mark</title>
   <defs>
-    <linearGradient id="pulse-gold" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#b8892e"/>
-      <stop offset="50%" stop-color="#e8c060"/>
-      <stop offset="100%" stop-color="#b8892e"/>
+    <linearGradient id="pulse-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d4a843"/>
+      <stop offset="40%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d4a843"/>
     </linearGradient>
-    <linearGradient id="ring-gold" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#b8892e"/>
-      <stop offset="50%" stop-color="#e8c060"/>
-      <stop offset="100%" stop-color="#b8892e"/>
+    <linearGradient id="ring-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4a843"/>
+      <stop offset="40%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#d4a843"/>
     </linearGradient>
   </defs>
 
-  <circle cx="340" cy="340" r="180" fill="none" stroke="url(#ring-gold)" stroke-width="1.5" opacity="0.6"/>
-  <circle cx="340" cy="340" r="167" fill="none" stroke="url(#ring-gold)" stroke-width="3"/>
+  <circle cx="340" cy="340" r="180" fill="none" stroke="url(#ring-grad)" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="340" cy="340" r="167" fill="none" stroke="url(#ring-grad)" stroke-width="3"/>
   <path d="M160 340 L230 340 C238 340 244 320 255 276 C263 340 270 395 280 388 C290 381 298 300 305 276 C312 300 320 395 330 388 C340 381 348 300 355 276 C362 320 368 340 380 340 L520 340"
-    fill="none" stroke="url(#pulse-gold)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    fill="none" stroke="url(#pulse-grad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
